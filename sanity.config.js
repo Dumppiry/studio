@@ -6,7 +6,6 @@ import { visionTool } from "@sanity/vision";
 import { dashboardTool, projectInfoWidget } from "@sanity/dashboard";
 import deskStructure from "./deskStructure";
 import { DownloadAttendeesAction } from "./actions/DownloadAttendeesAction";
-import { catsWidget } from "sanity-plugin-dashboard-widget-cats";
 import { documentListWidget } from "sanity-plugin-dashboard-widget-document-list";
 import { githubActionsWidget } from "./plugins/sanity-github-actions-widget";
 
@@ -45,7 +44,6 @@ export default defineConfig({
           ],
         }),
         projectInfoWidget(),
-        catsWidget({ layout: { width: "medium" } }),
       ],
     }),
     deskTool({
