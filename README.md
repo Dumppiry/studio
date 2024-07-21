@@ -1,9 +1,23 @@
-# Sanity Clean Content Studio
+# Dumppi Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+This is the content management system for our websites build using Sanity.
 
-Now you can do the following things:
+## Development
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+1. To start development clone the repo.
+2. Open the project root in the terminal.
+3. Install packages
+```bash
+npm install --legacy-peer-deps
+```
+4. Start the local development server.
+```bash
+npm run dev
+```
+5. Start developing
+
+## Important notices
+
+- The data you handle in the local client is still production data so don't mess with it too much.
+- If using windows, STOP!! Go to [here](https://ubuntu.com/download) and be happy.
+- [Sanity documentation](https://www.sanity.io/docs/)
