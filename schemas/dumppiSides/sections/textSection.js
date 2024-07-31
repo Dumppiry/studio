@@ -21,7 +21,14 @@ export default {
       title: 'Content',
       description: 'Content of the section.',
       type: 'array',
-      of: [{ type: 'textColumn' }] // TODO Add imageSection, contactSection
+      of: [{ type: 'textColumn' }], // TODO Add imageSection, contactSection
+      validation: (Rule) =>
+        Rule.custom((items) => {
+          if (items.length > 2) {
+            return 'Pls only 2 columns of content :D.'
+          }
+          return true
+        })
     },
     {
       name: 'layoutType',
