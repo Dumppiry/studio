@@ -99,7 +99,7 @@ export default defineConfig([
                 siteName: 'satama-appro.fi',
                 githubUser: 'Dumppiry',
                 githubRepo: 'dumppi-sides',
-                namespace: 'dummpi-sides',
+                namespace: 'dumppi-sides',
                 eventType: 'build-and-deploy-satama-appro'
               }
             ]
