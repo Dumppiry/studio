@@ -10,6 +10,8 @@
     "dev": "sanity dev",
     "build": "sanity build",
     "sanity-deploy": "sanity deploy",
+    "sanity-listql": "sanity graphql list",
+    "sanity-login": "sanity login",
     "graphql-deploy": "sanity graphql deploy --playground",
     "test": "sanity check"
   },

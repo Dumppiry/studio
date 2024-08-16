@@ -73,6 +73,16 @@ export default {
       validation: (Rule) => Rule.min(0).precision(2)
     },
     {
+      name: 'ticketLink',
+      title: 'Ticket link',
+      type: 'url'
+    },
+    {
+      name: 'ticketSaleStartDate',
+      title: 'Ticket sale start',
+      type: 'datetime'
+    },
+    {
       name: 'contactPerson',
       title: 'Contact person',
       type: 'reference',
