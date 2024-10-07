@@ -93,6 +93,9 @@ import bannerSection from './dumppiSides/sections/bannerSection'
 // Common schemas
 import localeBlock from './common/objects/localeBlock'
 
+// Photoslider
+import photoSlider from './dumppiSides/photoSlider'
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default {
   webSchema: [
@@ -179,6 +182,7 @@ export default {
     localeSlug,
     localeBlock,
     contactSection,
-    bannerSection
+    bannerSection,
+    photoSlider
   ]
 }

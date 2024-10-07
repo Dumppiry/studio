@@ -6,11 +6,15 @@ export default (S) =>
     .items([
       S.listItem()
         .icon(FiFileText)
+        .title('Dumppi-TV')
+        .child(S.editor().schemaType('photoSlider').documentId('dumppiTv')),
+      S.listItem()
+        .icon(FiFileText)
         .title('Satama-Approt')
         .child(S.editor().schemaType('page').documentId('satamaApproPage')),
 
       S.divider(),
       ...S.documentTypeListItems().filter(
-        (listItem) => !['page'].includes(listItem.getId())
+        (listItem) => !['page', 'photoSlider'].includes(listItem.getId())
       )
     ])

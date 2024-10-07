@@ -87,7 +87,7 @@ export default defineConfig([
             types: ['page'],
             showCreateButton: false,
 
-            query: `*[_type == "page"] | order(_updatedAt asc)`
+            query: `*[_type == "page" || _type == "photoSlider"] | order(_updatedAt asc)`
           }),
           githubActionsWidget({
             layout: {
