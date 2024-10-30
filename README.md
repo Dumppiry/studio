@@ -1,19 +1,23 @@
 # Dumppi Studio
 
-This is the content management system for our websites build using Sanity.
+This is the content management system for our websites build using Sanity. Ask webmaster for access to the Sanity.
 
 ## Development
 
 1. To start development clone the repo.
 2. Open the project root in the terminal.
 3. Install packages
+
 ```bash
 npm install --legacy-peer-deps
 ```
+
 4. Start the local development server.
+
 ```bash
 npm run dev
 ```
+
 5. Start developing
 
 ## Important notices
