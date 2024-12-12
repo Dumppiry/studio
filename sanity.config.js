@@ -99,14 +99,14 @@ export default defineConfig([
                 siteName: 'satama-appro.fi',
                 githubUser: 'Dumppiry',
                 githubRepo: 'dumppi-sides',
-                namespace: 'dumppi-sides',
+                namespace: 'dumppi-sides-satama-appro',
                 eventType: 'build-and-deploy-satama-appro'
               },
               {
                 siteName: 'vappuappro.fi',
                 githubUser: 'Dumppiry',
                 githubRepo: 'dumppi-sides',
-                namespace: 'dumppi-sides',
+                namespace: 'dumppi-sides-vappuappro',
                 eventType: 'build-and-deploy-vappuappro'
               }
             ]
