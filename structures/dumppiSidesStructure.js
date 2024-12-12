@@ -12,6 +12,10 @@ export default (S) =>
         .icon(FiFileText)
         .title('Satama-Approt')
         .child(S.editor().schemaType('page').documentId('satamaApproPage')),
+      S.listItem()
+        .icon(FiFileText)
+        .title('Vappuapprot')
+        .child(S.editor().schemaType('page').documentId('vappuApproPage')),
 
       S.divider(),
       ...S.documentTypeListItems().filter(
