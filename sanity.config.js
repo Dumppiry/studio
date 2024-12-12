@@ -101,6 +101,13 @@ export default defineConfig([
                 githubRepo: 'dumppi-sides',
                 namespace: 'dumppi-sides',
                 eventType: 'build-and-deploy-satama-appro'
+              },
+              {
+                siteName: 'vappuappro.fi',
+                githubUser: 'Dumppiry',
+                githubRepo: 'dumppi-sides',
+                namespace: 'dumppi-sides',
+                eventType: 'build-and-deploy-vappuappro'
               }
             ]
           }),

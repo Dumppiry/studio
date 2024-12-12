@@ -12,8 +12,7 @@ export default {
       title: 'Project',
       type: 'string',
       readOnly: true,
-      hidden: true,
-      initialValue: 'satama-appro'
+      hidden: true
     },
     {
       name: 'banner',
